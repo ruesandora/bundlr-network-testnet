@@ -1,8 +1,12 @@
-<h1 align="center"> Bundlr Network </h1> 
+<h1 align="center">  Bundlr Network </h1> 
 
 ![image](https://user-images.githubusercontent.com/101149671/180648527-7bd924fc-c279-43fb-ad16-1b529eb13227.png)
 
 <h1 align="center"> Bundlr Network Validator kurulum rehberi</h1> 
+
+
+## Sorularınız için: https://t.me/BundlrNetworkTurkish
+
 
 # Gereksinimler (Ekibin tavsiye ettiği, bence daha düşük sistem gereksinimleri yeterli olur):
 ```
@@ -148,8 +152,66 @@ npm install -g npm@8.15.0
 
 ![image](https://user-images.githubusercontent.com/101149671/180650042-bcf50527-b414-4cff-8ce9-64a72d61a69f.png)
 
+# cli indiriyoruz:
+```
+npm i -g @bundlr-network/testnet-cli
+source $HOME/.profile
+```
+
+# BURAYA KADAR OKUDUYSAN FLOODU, ÖDÜL HAKKINDA:
+
+![image](https://user-images.githubusercontent.com/101149671/180650223-6d726ed2-6e39-47e1-bdc4-68ab9907bbeb.png)
 
 
+# Faucet: https://bundlr.network/faucet
+
+* Adresiniz RuyuUwqrf65Lvc9PIvwgD... diye giden .json'da ki. (json hariç)
+* İkinci adım twit atıyorsunuz twitinizi bundlr veya botu beğenirse token gelmiştir.
+* Teyit etme komutu: 
+
+```
+testnet-cli balance CÜZDAN ADRESİ
+```
+
+# Testnete katılıyoruz, biraz uzun sürebilir
+```
+testnet-cli join RkinCLBlY4L5GZFv8gCFcrygTyd5Xm91CzKlR6qxhKA -w ~/validator-rust/wallet.json ~/ -u  http://$(curl icanhazip.com):4444 -s 25000000000000
+```
+
+![image](https://user-images.githubusercontent.com/101149671/180650293-aba192a2-d665-4c00-a832-fc18b31e11ff.png)
+
+
+# Logları kontrol etme:
+```
+docker-compose -f $HOME/validator-rust/docker-compose.yml logs -f --tail 10
+```
+
+![image](https://user-images.githubusercontent.com/101149671/180650331-b72a15f0-5640-4f46-86cb-87aa3347fa79.png)
+
+
+# Ek olarak bir işlem daha yapalım:
+
+* https://bundlr.network/explorer/ üzerine gidiyoruz.
+* Çıkan ekranda validators kısmına tıklayalım
+* sağ alt taraftan become a validator diyelim.
+* Validator URL dediği şu, sui'de yapmıştık.
+* http://ip:1984
+* Benim rehberimden kurmadıysanız port çalışmaz, 1984 ben ekledım.
+* İP yazan kısma sunucu İP'inizi yazın. 194.060.xxx.. diye başlayan.
+* Amount staked 2500 yapıp approve diyin, görselde ki gibi bir ekran çıkıcak
+* Böyle dönüp duruyor saatlerce, dökümasyonda yok ben ekliyim dedim belki işe yarar :))
+
+# Hesaplar:
+
+[<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="16px"> Twitter   ](https://twitter.com/Ruesandora0) 
+
+[<img src="https://cdn-icons-png.flaticon.com/512/1336/1336494.png" width="16px"> Forum   ](https://forum.rues.info/index.php)
+
+[<img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="16px"> Telegram Announcement   ](https://t.me/RuesAnnouncement)
+
+[<img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="16px"> Telegram Chat   ](https://t.me/RuesChat)
+
+[Discord](https://discord.gg/ruescommunity)
 
 
 
