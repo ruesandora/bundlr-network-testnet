@@ -1,3 +1,4 @@
-<h1 align="center"> Sui Devnet Node Kurulumu </h1> 
+<h1 align="center"> Bundlr Network </h1> 
 
-![image](https://user-images.githubusercontent.com/101149671/180648482-082297a0-8d1d-4be6-9f77-3aef41b40f86.png)
+![image](https://user-images.githubusercontent.com/101149671/180648527-7bd924fc-c279-43fb-ad16-1b529eb13227.png)
+
