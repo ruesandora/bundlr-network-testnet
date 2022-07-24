@@ -89,7 +89,7 @@ cp "json dosyanız" wallet.json
 # 3 komutu giriyoruz:
 ```
 cd validator-rust/
-cp wallet.json ~/validator-rust
+cp ~/wallet.json ~/validator-rust
 ```
 
 # Altta ki komutu girip wallet.json çıktısı alırsınız:
