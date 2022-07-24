@@ -88,6 +88,7 @@ cp "json dosyanız" wallet.json
 
 # 3 komutu giriyoruz:
 ```
+cd
 cd validator-rust/
 cp ~/wallet.json ~/validator-rust
 ```
