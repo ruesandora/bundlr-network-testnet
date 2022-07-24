@@ -77,7 +77,7 @@ git clone --recurse-submodules https://github.com/Bundlr-Network/validator-rust.
 
 ![image](https://user-images.githubusercontent.com/101149671/180649082-af1b880a-b4f9-46f7-8409-97e6e70dcd25.png)
 
-# Altta ki komutta ki komutun ismini yukarıda RuyuU... diye başlayan dosya adı ile tırnak içersini dolduralım ve tırnakları kaldırıp komutu girelim.
+# Altta ki komutta ki komutun ismini yukarıda RuyuU...json diye başlayan dosya adı ile tırnak içersini dolduralım ve tırnakları kaldırıp komutu girelim. 
 ```
 cp "json dosyanız" wallet.json
 ```
